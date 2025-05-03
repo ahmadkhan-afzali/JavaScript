@@ -4,7 +4,7 @@
 		"ghcr.io/devcontainers-extra/features/node-asdf:0": {},
 		"settings": {
 				"editor.fontSize": 32,
-				"terminal.integrated.fontSize": 24,
+				"terminal.integrated.fontSize": 32,
 				"editor.wordWrap": "on"
 			}
 		
