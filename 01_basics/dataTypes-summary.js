@@ -9,9 +9,16 @@ const mob = "7098537653"
 const outTemp = null
 const isLogged = false
 
-const userEmail, // or-> const userEmail = undefined
+console.log(name,mob,outTemp),
 
-console.log(name,mob,outTemp);
+
+const userEmail;// or-> const userEmail = undefined
+const mobNo = 7098537653 //-> BigInt
+
+// Symbol
+const id = "123"
+const anotherId ="123"
+console.log(id===anotherId);
 
 
 // 2) Reference ( Non primitive )
