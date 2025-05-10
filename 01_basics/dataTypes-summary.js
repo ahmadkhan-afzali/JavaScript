@@ -9,18 +9,33 @@ const mob = "7098537653"
 const outTemp = null
 const isLogged = false
 
-console.log(name,mob,outTemp),
+console.log(name,mob,outTemp)
 
 
 const userEmail;// or-> const userEmail = undefined
-const mobNo = 7098537653 //-> BigInt
+const bigNumber = 7098537653n //-> BigInt. at the end of number type n for converting to BigInt
 
 // Symbol
-const id = "123"
-const anotherId ="123"
-console.log(id===anotherId)
+const id = Symbol(123)
+const anotherId = Symbol(123)
+console.log(id === anotherId);
 
 
 // 2) Reference ( Non primitive )
 // -> Array, Objects, Functions
+
+const students =["ahmad","hamid", "haroon"]; //Array
+
+let studentSub ={                           // Object
+    nameOfSub : "maths",
+    passScore : "70",
+    class : "12",
+}
+
+const myFunction = function (){             // Function
+    console.log("Hello world");
+    
+}
+
+
 
