@@ -9,10 +9,7 @@ console.log("2">1); // true.why? bcs string gets converted to number
 console.log("3"<1); // false.why? bcs 3 is not smaller than 1
 console.log("3"==1); // false
 console.log("3"!=1); // true
-console.log("3">=1); // true. ****Note***--> These cases are not allowed and preferable in js coding.
-
-
-
+console.log("3">=1); // true. ****Note***--> These cases are not allowed and preferable in JS coding.
 
 // ===  
   // == and === is different. "3" This isn't converted to a number in === case.
