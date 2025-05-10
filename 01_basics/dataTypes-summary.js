@@ -6,9 +6,12 @@
 
 const name ="Abdul"
 const mob = "7098537653"
+const outTemp = null
 const isLogged = false
 
-console.log(name,mob,isLogged);
+const userEmail, // or-> const userEmail = undefined
+
+console.log(name,mob,outTemp);
 
 
 // 2) Reference ( Non primitive )
