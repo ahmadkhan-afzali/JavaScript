@@ -18,7 +18,7 @@ const mobNo = 7098537653 //-> BigInt
 // Symbol
 const id = "123"
 const anotherId ="123"
-console.log(id===anotherId);
+console.log(id===anotherId)
 
 
 // 2) Reference ( Non primitive )
