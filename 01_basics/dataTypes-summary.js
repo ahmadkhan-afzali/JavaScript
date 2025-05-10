@@ -12,13 +12,17 @@ const isLogged = false
 console.log(name,mob,outTemp)
 
 
-const userEmail;// or-> const userEmail = undefined
+let userEmail;// or-> const userEmail = undefined
+// Note : const userEmail; -> Error, why? bcs Must initialize at declaration and cannot be reassined.
 const bigNumber = 7098537653n //-> BigInt. at the end of number type n for converting to BigInt
 
 // Symbol
 const id = Symbol(123)
 const anotherId = Symbol(123)
-console.log(id === anotherId);
+console.log(id === anotherId)
+
+console.log(typeof bigNumber);  // type bigint
+console.log(typeof id);        // type is symbol
 
 
 // 2) Reference ( Non primitive )
@@ -36,6 +40,13 @@ const myFunction = function (){             // Function
     console.log("Hello world");
     
 }
+
+console.log(typeof students) // type of Array is-> object
+console.log(typeof studentSub)  // type of objec is -> object
+console.log(typeof myFunction) // type of function is -> function
+
+
+
 
 
 
