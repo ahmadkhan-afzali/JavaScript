@@ -5,10 +5,11 @@
 // 7 Types: String, Number, null, Undefined ,BigInt ,Boolean ,Symbol.
 
 const name ="Abdul"
-const mob = 7098537653
+const mob = "7098537653"
 const isLogged = false
 
-console.log(name);
+console.log(name,mob,isLogged);
+
 
 // 2) Reference ( Non primitive )
 // -> Array, Objects, Functions
