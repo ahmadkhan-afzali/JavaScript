@@ -49,8 +49,8 @@ console.log(typeof myFunction) // type of function is -> function
     // All Primitive Values Stored in Stack form
 
     let Email ="ahmad@gmail.com"
-    let ahmdEmail = Email
-     ahmdEmail = "afzali@gmail.com"
+    let ahmadEmail = Email
+     ahmadEmail = "afzali@gmail.com"
 
     console.log(Email);
     console.log(ahmdEmail);
