@@ -45,6 +45,20 @@ console.log(typeof students) // type of Array is-> object
 console.log(typeof studentSub)  // type of objec is -> object
 console.log(typeof myFunction) // type of function is -> function
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    // All Primitive Values Stored in Stack form
+
+    let Email ="ahmad@gmail.com"
+    let ahmdEmail = Email
+     ahmdEmail = "afzali@gmail.com"
+
+    console.log(Email);
+    console.log(ahmdEmail);
+    
+    
+    // and Non-Primitive Values Stored in Heap form.
+    
+
 
 
 
