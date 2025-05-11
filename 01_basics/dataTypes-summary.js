@@ -53,7 +53,7 @@ console.log(typeof myFunction) // type of function is -> function
      ahmadEmail = "afzali@gmail.com"
 
     console.log(Email);
-    console.log(ahmdEmail);
+    console.log(ahmadEmail);
     
     
     // and Non-Primitive Values Stored in Heap form.
