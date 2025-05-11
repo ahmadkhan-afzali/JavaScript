@@ -52,11 +52,25 @@ console.log(typeof myFunction) // type of function is -> function
     let ahmadEmail = Email
      ahmadEmail = "afzali@gmail.com"
 
-    console.log(Email);
-    console.log(ahmadEmail);
+    console.log(Email);  //op  "ahmad@gmail.com" 
+    console.log(ahmadEmail); // op  "afzali@gmail.com"
     
     
     // and Non-Primitive Values Stored in Heap form.
+    let userOne= {
+        usEmail :"abc@gmail.com",
+        id : "123"
+    }
+
+    let userTwo = userOne
+    userTwo.usEmail = "efg@gmail.com"
+
+    console.log(userOne.usEmail);
+    console.log(userTwo.usEmail);
+    
+    
+    
+
     
 
 
